@@ -1,51 +1,112 @@
 <html>
+
 <head>
+    <!--Begin StyleSheets-->
+    <link rel="stylesheet" href="ResumeStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--End StyleSheets-->
     <title>Forrest Spencer Buster's Resume'</title>
-    <img src="..\..\Pics\Pics of Me\2015-04-30 At the top of Multnomah Waterfall for Stephs 30th bday celebration trip to oregon coast.jpg" height=100em width=100em border=.02em bordercolor="white">
+
 </head>
-    <body>
-        <h1>Forrest Spencer Buster</h1><small>Programming Enthusiast</small>
-        <h4>fspencerb@gmail.com 208-521-6978 941 W. Storey Ave. Meridian, ID 83646</h4>
-        <h4><a href="https://www.linkedin.com/pub/spencer-buster/21/162/3a9">LinkedIn</a>&nbsp;<a href="https://fspencerb@bitbucket.org/fspencerb/tutorial.git">GitHub</a></h4>
-        <hr />
-        <p>"I want to be apart of advancing technology and at the forefront of the development of that technology."</p>
-        <div class="section heading"><strong>Education</strong></div>
-        <ul>
-            <li><div class="time">Aug. 2015 – Nov. 2015</div>	<div>Boise Code Works</div>  <div>Boise, ID</div>
-                <div>Website: <a href="http://boisecodeworks.com">BoiseCodeWorks.com</a></div>
-                <div>Software/Web/App Development</div>
-                <div><small>Related course work: JavaScript, AngularJS, Node, Visual Studio C#, ASP.net, GIT - Source MongoDb - NoSQl, Security, HTML5, CSSJ, Bootstrap</small></div>
-            </li>
-            <br/>
-            <li><div class="time">Jun. 2004 – Dec. 2005</div>	<div>Boise State University</div>  <div>Boise, ID</div>
-                <div>Business Management and Architecture</div>
-                <div><small>Related course work: Business Communications, marketing, economics, algebra, geometry, calculus, American Architecture, Art History, and Microsoft Office.</small></div></li>
-            <br/>
-            <li><div class="time">Aug. 2003—May 2004</div>	<div>Idaho State University</div>   <div>Idaho Falls, ID</div>
-                <div>Computer Sciences and Mathematics</div>
-                <div><small>Related course work: Calculus, HTML, CSS and C++ language programming.</small></div>
-            </li>
-            <br/>
-        </ul>
-        <div style="border:.03em solid black; width:70%; height:10em">
-            <div class="section heading"><strong>Skills</strong></div>
-            <div><b>Languages:</b> C#, JavaScript, SQL, Java, C++, PHP, HTML, CSS</div>
-            <div><b>Frameworks:</b> Angular, JQuery, Node, ASP.Net, Silverlight</div>
-            <div><b>Methodologies:</b> Agile, TDD, BDD, XP</div>
-            <div><b>Database:</b> MSSQL, MySQL, MongoDb</div>
-            <div><b>Tools:</b> Brackets, Visual Studio, Git, Eclipse</div> 
-            
-            <div>Go to my <a href="www.google.com">site.</a></div>
+
+<body>
+    <div class="box">
+        <div class="picturecontainer">
+            <img src="..\..\Pics\Pics of Me\2015-04-30 At the top of Multnomah Waterfall for Stephs 30th bday celebration trip to oregon coast.jpg"
+            class="mypicture">
         </div>
-        <table style="border:1em solid black">
-            <tbody>
-                <tr>
-                    <td>Row 1 Col 1</td><td>Row 1 Col 2</td>
-                </tr>
-                <tr>
-                    <td>Row 2 Col 1</td><td>Row 2 Col 2</td>    
-                </tr>
-            </tbody>
-        </table>
-    </body>
+        <h1>Forrest Spencer Buster</h1><span class="describer">Programming Enthusiast</span>
+        <br/>
+        <br/>
+        <br/>
+        <p class="quote">"I want to be a part of advancing technology and at the forefront of the development of that technology."</p>
+        <br/>
+        <br/>
+        <div class="contactinfo" id="email">fspencerb@gmail.com</div>
+        <div class="contactinfo" id="phone">208-521-6978</div>
+        <div class="contactinfo" id="address">941 W. Storey Ave.
+            <br/> Meridian, ID 83646</div>
+        <hr />
+        <br/>
+        <a href="mailto:fspencerb@gmail.com" title="Email" target="_blank" class="logos email">get in touch</a>
+            <br/>
+            <br/>
+        <div class="logos link">
+            <a href="https://www.linkedin.com/pub/spencer-buster/21/162/3a9" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            <br/>
+            <br/>
+            <a href="https://github.com/fspencerb" title="GitHub" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+
+    </div>
+    <h3 class="sectionheading">Education</h3>
+    <ul class="education">
+        <li>
+            <div class="school">
+                <span class="time">Aug. 2015 &#45; Nov. 2015</span>
+                <span class="schoolname">Boise Code Works</span>
+                <span class="city">Boise, ID</span>
+            </div>
+            <div style=text-align:center>Website: <a href="http://boisecodeworks.com" title="Oh you'd like to know more about this school? Click! They're awesome!" target="_blank">BoiseCodeWorks.com</a></div>
+            <div class="courseofstudy">Software/Web/App Development</div>
+            <div class="coursework">Related course work: JavaScript, AngularJS, Node, Visual Studio C#, ASP.net, GIT - Source MongoDb - NoSQl, Security,
+                HTML5, CSSJ, Bootstrap</div>
+        </li>
+        <br/>
+        <li>
+            <div class="school">
+                <span class="time">Jun. 2004 &#45; Dec. 2005</span>
+                <span class="schoolname">Boise State University</span>
+                <span class="city">Boise, ID</span>
+            </div>
+            <div class="courseofstudy">Business Management and Architecture</div>
+            <div class="coursework">Related course work: Business Communications, marketing, economics, algebra, geometry, calculus, American Architecture,
+                Art History, and Microsoft Office.</div>
+        </li>
+        <br/>
+        <li>
+            <div class="school">
+                <span class="time">Aug. 2003 &#45; May 2004</span>
+                <span class="schoolname">Idaho State University</span>
+                <span class="city">Idaho Falls, ID</span>
+            </div>
+            <div class="courseofstudy">Computer Sciences and Mathematics</div>
+            <div class="coursework">Related course work: Calculus, HTML, CSS and C++ language programming.</div>
+        </li>
+    </ul>
+    <div>
+        <h3 class="sectionheading">Skills</h3>
+        <ul class="skills">
+            <li><b>Languages:</b> C#, JavaScript, SQL, Java, C++, PHP, HTML, CSS</li>
+            <li><b>Frameworks:</b> Angular, JQuery, Node, ASP.Net, Silverlight</li>
+            <li><b>Methodologies:</b> Agile, TDD, BDD, XP</li>
+            <li><b>Database:</b> MSSQL, MySQL, MongoDb</li>
+            <li><b>Tools:</b> Brackets, Visual Studio, Git, Eclipse</li>
+        </ul>
+
+        <div>Go to my <a href="www.google.com">site.</a></div>
+    </div>
+    <br/>
+    <br/>
+    <section>
+        <h4>To get ahold of me message me here!</h4>
+        <form id="ContactForm" method="post" action="nothing right now">
+            <div>
+                <lable for="contactName">Name:</lable>
+                <input name="contactName" type="test" />
+            </div>
+            <div>
+                <lable for="contactEmail">Email:</lable>
+                <input name="contactEmail" type="email" />
+            </div>
+            <div>
+                <lable for="contactMessage">Message:</lable>
+                <textarea name="contactMessage" type="text" rows="8"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+</body>
+
 </html>
